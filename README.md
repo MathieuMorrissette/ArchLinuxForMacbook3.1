@@ -25,6 +25,8 @@ Section "Device"
 EndSection
 ```
 
+Source : https://help.ubuntu.com/community/MacBookAir3-2/Raring
+
 # Nvidia driver
 
 Nouveau driver is broken for this mac and so we must install the proprietary driver
