@@ -86,3 +86,7 @@ Then update grub
 ```
 grub-mkconfig -o /boot/grub/grub.cfg`
 ```
+
+
+Keywords :
+Macbook air 3.1 3,1 2010 mid late 320m nvidia
