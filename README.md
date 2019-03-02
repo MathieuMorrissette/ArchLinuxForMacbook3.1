@@ -101,6 +101,14 @@ If you try to go in tty you will get this error
 [   72.238728] ------------[ cut here ]------------
 ```
 
+install gtk2 ( for nvidia settings server )
+
+install acpid to fix issues with xorg
+
+```
+systemctl enable acpid
+systemctl start acpid
+```
 
 
 Keywords :
