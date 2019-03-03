@@ -4,7 +4,7 @@ Tutorial
 
 # EFI
 
-## Fixing backlight
+### Fixing backlight
 
 Run this command to get info about the device
 
@@ -29,7 +29,7 @@ EndSection
 
 Source : https://help.ubuntu.com/community/MacBookAir3-2/Raring
 
-# Nvidia driver
+### Nvidia driver
 
 Nouveau driver is broken for this mac and so we must install the proprietary driver
 
@@ -89,7 +89,7 @@ Then update grub
 grub-mkconfig -o /boot/grub/grub.cfg`
 ```
 
-# Fix tty
+### Fix tty
 
 Run the arch in legacy mode or csm
 https://wiki.archlinux.org/index.php/MacBookPro7,1
