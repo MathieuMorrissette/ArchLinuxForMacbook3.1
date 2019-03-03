@@ -2,6 +2,8 @@
 Tutorial
 
 
+# EFI
+
 ## Fixing backlight
 
 Run this command to get info about the device
@@ -93,6 +95,13 @@ Run the arch in legacy mode or csm
 https://wiki.archlinux.org/index.php/MacBookPro7,1
 
 I made an hybrid MBR and booted it with refind
+
+# CSM/ LEGACY
+
+works out of the box
+
+
+# GENERAL
 
 # Fix long sddm load times
 It is because of low entropy
