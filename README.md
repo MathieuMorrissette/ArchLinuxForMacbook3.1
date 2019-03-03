@@ -89,27 +89,19 @@ grub-mkconfig -o /boot/grub/grub.cfg`
 
 # Fix tty
 
-If you try to go in tty you will get this error
+Run the arch in legacy mode or csm
+https://wiki.archlinux.org/index.php/MacBookPro7,1
+
+I made an hybrid MBR and booted it with refind
+
+# Fix long sddm load times
+
+Install rng-tools package
+enable the service
 
 ```
-[   71.819875] caller _nv000788rm+0xe4/0x1c0 [nvidia] mapping multiple BARs
-[   72.226863] NVRM: Your system is not currently configured to drive a VGA console
-[   72.226867] NVRM: on the primary VGA device. The NVIDIA Linux graphics driver
-[   72.226869] NVRM: requires the use of a text-mode VGA console. Use of other console
-[   72.226871] NVRM: drivers including, but not limited to, vesafb, may result in
-[   72.226872] NVRM: corruption and stability problems, and is not supported.
-[   72.238728] ------------[ cut here ]------------
+systemctl enable rngd.service
 ```
-
-install gtk2 ( for nvidia settings server )
-
-install acpid to fix issues with xorg
-
-```
-systemctl enable acpid
-systemctl start acpid
-```
-
 
 Keywords :
 Macbook air 3.1 3,1 2010 mid late 320m nvidia
