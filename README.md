@@ -95,6 +95,7 @@ https://wiki.archlinux.org/index.php/MacBookPro7,1
 I made an hybrid MBR and booted it with refind
 
 # Fix long sddm load times
+It is because of low entropy
 
 Install rng-tools package
 enable the service
