@@ -73,7 +73,7 @@ Create this file
 sudo nano /etc/grub.d/01_enable_vga.conf
 ```
 
-then run this command : ( change the info according to your previous command output )
+then add this insideile : ( change the info according to your previous command output )
 
 ```
 cat << EOF
