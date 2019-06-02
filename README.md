@@ -6,6 +6,8 @@ Tutorial
 Linux Kernel 5.1 broke the sound driver it sounds all scratchy and bad.
 SDDM with nouveau doesn't work  on kernel 5.1 with this hardware.
 
+https://bbs.archlinux.org/viewtopic.php?id=246826
+
 
 # EFI
 
