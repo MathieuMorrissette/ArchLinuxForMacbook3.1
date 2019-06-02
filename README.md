@@ -1,5 +1,10 @@
-# ArchLinuxForMacbook3.1
+# ArchLinuxForMacbook3.1 & 7.1 (Pro)
 Tutorial
+
+## Caution
+
+Linux Kernel 5.1 broke the sound driver it sounds all scratchy and bad.
+SDDM with nouveau doesn't work  on kernel 5.1 with this hardware.
 
 
 # EFI
