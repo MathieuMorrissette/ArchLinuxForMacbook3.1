@@ -42,6 +42,11 @@ Nouveau driver is broken for this mac and so we must install the proprietary dri
 
 Install nvidia-340xx package
 
+* update : the nvidia-340xx package is no longer maintained please install it from the AUR.
+https://aur.archlinux.org/nvidia-340xx.git
+
+any other driver cause major graphical issues
+
 Do not reboot yet or you will get a black screen 
 
 On this mac PCI-E lanes must be enabled manually at boot
